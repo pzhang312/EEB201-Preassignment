@@ -1,12 +1,12 @@
 {
-    "contents" : "> `?`(mean)\n> help(mean)\n",
+    "contents" : "> `?`(mean)\n> help(mean)\n> a <- 2+3\n> a\n[1] 5",
     "created" : 1442364725502.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1785665766",
+    "hash" : "310437861",
     "id" : "63B1D186",
-    "lastKnownWriteTime" : 1442364878,
+    "lastKnownWriteTime" : 1442364923,
     "path" : "~/GitHub/EEB201-Exercise/Script.R",
     "project_path" : "Script.R",
     "properties" : {
