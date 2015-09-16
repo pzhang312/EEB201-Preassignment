@@ -1,12 +1,12 @@
 {
-    "contents" : "> `?`(mean)\n\n",
+    "contents" : "> `?`(mean)\n> help(mean)\n",
     "created" : 1442364725502.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3042171605",
+    "hash" : "1785665766",
     "id" : "63B1D186",
-    "lastKnownWriteTime" : 1442364865,
+    "lastKnownWriteTime" : 1442364878,
     "path" : "~/GitHub/EEB201-Exercise/Script.R",
     "project_path" : "Script.R",
     "properties" : {
