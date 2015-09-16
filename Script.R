@@ -31,3 +31,75 @@ Error: attempt to apply non-function
 [1] 1 2 3 1 2 3
 > rep(1:3, each = 2)
 [1] 1 1 2 2 3 3
+> sum(Y)
+[1] 105.4
+> mean(Y)
+[1] 10.54
+> max(Y)
+[1] 11.4
+> length(Y)
+[1] 10
+> summary(Y)
+Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+8.30   10.72   11.00   10.54   11.18   11.40 
+> Names <- c("Sarah", "Yunluan")
+> Names
+[1] "Sarah"   "Yunluan"
+> b <- c(TRUE, FALSE)
+> b
+[1]  TRUE FALSE
+> class(Y)
+[1] "numeric"
+> class(b)
+[1] "logical"
+> Y > 10
+[1] FALSE FALSE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE
+[9]  TRUE  TRUE
+> Y > mean(Y)
+[1] FALSE FALSE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE
+[9]  TRUE  TRUE
+> Y == 11
+[1] FALSE FALSE FALSE FALSE  TRUE  TRUE FALSE FALSE
+[9] FALSE FALSE
+> Y != 11
+[1]  TRUE  TRUE  TRUE  TRUE FALSE FALSE  TRUE  TRUE
+[9]  TRUE  TRUE
+> a <- 1:3
+> b <- 4:6
+> a+b
+[1] 5 7 9
+> a*b
+[1]  4 10 18
+> a/b
+[1] 0.25 0.40 0.50
+> a+1
+[1] 2 3 4
+> a*2
+[1] 2 4 6
+> 1/a
+[1] 1.0000000 0.5000000 0.3333333
+> a*1:2
+[1] 1 4 3
+Warning message:
+  In a * 1:2 :
+  longer object length is not a multiple of shorter object length
+> a * c(1, 2, 1)
+[1] 1 4 3
+> 1:4 * 1:2
+[1] 1 4 3 8
+> 1:4 * c(1, 2, 1, 2)
+[1] 1 4 3 8
+> Y[1]
+[1] 8.3
+> Y[1:3]
+[1]  8.3  8.6 10.7
+> Y > mean(Y)
+[1] FALSE FALSE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE
+[9]  TRUE  TRUE
+> Y[Y > mean(Y)]
+[1] 10.7 10.8 11.0 11.0 11.1 11.2 11.3 11.4
+> a <- c(5, 3, 6, NA)
+> a
+[1]  5  3  6 NA
+> is.na(a)
+[1] FALSE FALSE FALSE  TRUE
