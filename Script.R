@@ -103,3 +103,20 @@ Warning message:
 [1]  5  3  6 NA
 > is.na(a)
 [1] FALSE FALSE FALSE  TRUE
+> !is.na(a)
+[1]  TRUE  TRUE  TRUE FALSE
+> a[!is.na(a)]
+[1] 5 3 6
+> na.exclude(a)
+[1] 5 3 6
+attr(,"na.action")
+[1] 4
+attr(,"class")
+[1] "exclude"
+> mean(a)
+[1] NA
+> mean(a, na.rm = TRUE)
+[1] 4.666667
+> d <- na.exclude(a)
+> mean(d)
+[1] 4.666667
